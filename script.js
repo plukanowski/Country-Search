@@ -5,7 +5,7 @@ $('#country-name').keyup(searchCountries);
 
 function searchCountries() {
 	countriesList.empty();
-	var countryName =$('#country-name').val();
+	var countryName = $('#country-name').val();
 	if (!countryName.length) {
 		countryName = 'Poland';
 	}
